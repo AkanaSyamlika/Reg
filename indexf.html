@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="stle2.css">
+   
+
+</head>
+
+<body >
+<h1>REGISTRATION FORM</h1>
+<div class="content">
+    <form action="indexg.html">
+        <div class="text">
+        <label for="name"><b>FIRST NAME:</b></label>
+        <input type="text" name="firstname" required>
+        <label for="name"><b>MIDDLE NAME:</b></label>
+        <input type="text" name="middle name" required>
+        <label for="name"><b>LAST NAME:</b></label>
+        <input type="text" name="last name" required>
+        <label for="email"><b>EMAIL:</b></label>
+        <input type="email" name="email" required>
+        <label for="password"><b>PASSWORD:</b></label>
+        <input type="password" name="password" required>
+        <label for="phonenumber"><b>PHONE NUMBER:</b></label>
+        <input type="tel" name="phone number" required>
+        <label for="gender"><b>GENDER:</b></label>
+        <select id="gender" >
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHERS">OTHERS</option>
+        </select>
+        <label for="ZIPCODE"><b>ZIPCODE:</b></label>
+        <input type="number" name="ZIPCODE" required>
+       <label for="subject"><b>CHOOSE A COURSE:</b></label>
+       <fieldset>
+         <select name="COURSE">
+         <optgroup label="WEB TECHNOLOGIES">
+            <option value="HTML">HTML</option>
+            <option value="JAVA">JAVA</option>
+         </optgroup>
+         <optgroup label="PROGRAMMING">
+            <option value="C">C</option>
+            <option value="PYTHON">PYTHON</option>
+         </optgroup>
+    </select>
+</fieldset>
+    <label for="BirthdayDAY"><b>Birthday (date and time):</b></label>
+    <input type="datetime-local" id="BirthdayDAY" name="BirthdayDAY">
+    <label for="FAV LANGUAGE"><b>SELECT THE TOPIC</b></label>
+    <input type="radio" id="REGISTRATION FORM" name="SELECT THE TOPIC" value="CREATE REGISTRATION FORM">
+     <label for="REGISTRATION FORM"><b>CREATE REGISTRATION FORM</b></label><br>
+    <input type="radio" id="DATA STRUCTURES" name="SELECT THE TOPIC" value="DATA STRUCTURES">
+    <label for="DATA STRUCTURES"><b>DATA STRUCTURES</b></label><br>
+    <input type="radio" id="PATTERN&SERIES" name="SELECT THE TOPIC" value="PATTERN&SERIES">
+    <label for="PATTERN&SERIES"><b>PATTERN&SERIES</b></label>
+
+
+     <fieldset>
+        <legend><b>Address:</b></legend>
+     <label for="City/Town"><b>City/Town :</b></label>
+     <input type="text" id="City/Town" name="City/Town" >
+     <label for="place"><b>Place:</b></label>
+     <input type="text" id="place" name="place" >
+     <label for="D.No"><b>D.No:</b></label>
+     <input type="text" name="D.No"><br><br>
+     <label for="Mandal"><b>Mandal:</b></label>
+     <input type="text" name="mandal">
+     <label for="dist"><b>District:</b></label>
+     <input type="text" name="dist">
+     <label for="Pincode"><b>Pincode:</b></label>
+     <input type="text" name="Pincode">
+     <label for="state"><b>State:</b></label>
+     <input type="text" name="State">
+     </fieldset><br>
+     <input type="button" onclick="alert('select time(9-11am,12:30-2:30pm,3:30-6:30pm)')" value="Click Me!"><br>
+     <label for="month"><b>Select a month:</b></label>
+    <input type="month" id="month" name="month">
+     <label for="week"><b>Select a week:</b></label>
+    <input type="week" id="week" name="week">
+    <label for="appt"><b>Select a time:</b></label>
+    <input type="time" id="appt" name="appt">
+    <fieldset>
+    <input type="button" onclick="alert('ALL THE BEST FOR THE EXAM 👍🏻 YOUR REGISTER NUM:2367541897')" value="Click Me!"><br>
+    
+</fieldset>
+<b><input type="submit"></b>
+    </form>
+</div>
+</body>
+</html>
